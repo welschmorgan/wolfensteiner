@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "http-server -c-1 -a 127.0.0.1"
+  },
+  "author": "Morgan Welsch <mwe@mtb111.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.6.2",
+    "wolfensteiner": "file://./pkg"
+  }
+}
